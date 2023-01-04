@@ -12,8 +12,6 @@ source "https://rubygems.org"
 
 #gem "minima"
 
-bundle install
-
 bundle exec jekyll serve
 
 gem "minima", "~> 2.5"
