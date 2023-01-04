@@ -12,7 +12,7 @@ source "https://rubygems.org"
 
 gem "minima"
 
-bundle
+bundle exec jekyll serve
 
 #gem "minima", "~> 2.5"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
