@@ -24,8 +24,11 @@ author:
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is the website description
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+  
+show_excerpts: false # set to true to show excerpts on the homepage
+
+#baseurl: "" # the subpath of your site, e.g. /blog
+#url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ToBeDone
 github_username:  panosdr
 
@@ -33,6 +36,7 @@ github_username:  panosdr
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 minima:
   date_format: "%b %-d, %Y"
