@@ -12,6 +12,8 @@ source "https://rubygems.org"
 
 #gem "minima"
 
+bundle update github-pages
+
 bundle exec jekyll serve
 
 gem "minima", "~> 2.5"
